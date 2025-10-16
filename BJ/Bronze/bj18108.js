@@ -2,4 +2,4 @@
 
 const fs = require("fs");
 const input = fs.readFileSync(0, "utf-8").trim().split(/\s+/).map(Number);
-console.log(input - 543);
+console.log(input[0] - 543);
